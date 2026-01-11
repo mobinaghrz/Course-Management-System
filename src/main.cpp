@@ -27,7 +27,12 @@ int main(){
     for (string i : Actions){
         cout<< i<<endl;
     };
+    string Action ;
+    
     while(true){
+        cin>>Action;
+        cout << "Action: " << Action;
+
 
     };
     return 0;
