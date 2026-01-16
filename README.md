@@ -1,4 +1,4 @@
-##  Project Structure
+# Course-Management-System
 ```
 CourseManagementSystem/
 ├── src/
@@ -19,4 +19,18 @@ CourseManagementSystem/
 │   └── enrollments.dat
 └── tests/
     └── unit_tests.cpp
+```
+```
+  main.cpp
+     ↓
+MainWindow (GUI) ←→ Database (central hub)
+                        ↓
+            ┌───────────┼───────────┐
+            ↓           ↓           ↓
+        Student      Course    Instructor
+            ↓           ↓           ↓
+        Person      Utils       Enrollment
+            
+LinkedList/CustomStack
+
 ```
