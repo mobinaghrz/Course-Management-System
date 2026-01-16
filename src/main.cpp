@@ -1,12 +1,11 @@
 #include <iostream>
 #include <string>
-#include <list>
+#include <vector>
 using namespace std;
 
-
 int main(){
-    //Choosing the Action
-    list<string> Actions = {
+    // Choosing the Action
+    vector<string> Actions = {
                                 "Add Student",
                                 "Add Course",
                                 "Add Instructor",
@@ -27,11 +26,16 @@ int main(){
     for (string i : Actions){
         cout<< i<<endl;
     };
-    string Action ;
+    string Action;
     
     while(true){
-        cin>>Action;
-        cout << "Action: " << Action;
+        getline(cin,Action);
+        cout << "Action: " << Action<<endl;
+
+        for (string i : Actions){
+            if(Action == i)
+                cout<< "Founded"<<endl;
+        };
 
 
     };
