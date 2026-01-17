@@ -1,5 +1,5 @@
 # Course-Management-System
-
+```
 CourseManagementSystem/
 ├── src/
 │   ├── main.cpp
@@ -19,3 +19,4 @@ CourseManagementSystem/
 │   └── enrollments.dat
 └── tests/
     └── unit_tests.cpp
+```
