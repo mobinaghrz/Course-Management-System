@@ -2,7 +2,7 @@
 #include <iostream>
 #include "Person.h"
 
-Person::Person(const int& id, const std::string& name, std::string& email):id(id),name(name),email(email),age(0){};
+Person::Person(const int& id, const std::string& name,const std::string& email):id(id),name(name),email(email),age(0){};
 
 void Person::Save(std::ostream& out) const{
     out << id << "\n";
