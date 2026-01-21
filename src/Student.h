@@ -9,10 +9,10 @@ class Student : public Person{
 
         std::string major;
         double GPA;
-        std::vector EnrolledCourses;
+        std::vector<std::string> EnrolledCourses;
 
     public:
         virtual void DisplayInfo();
-        EnrollInCourse();
+        void EnrollInCourse(const std::string& course);
 
 };
