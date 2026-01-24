@@ -15,4 +15,4 @@ class Student : public Person{
         virtual void DisplayInfo();
         void EnrollInCourse(const std::string& course);
 
-};
+}; 
