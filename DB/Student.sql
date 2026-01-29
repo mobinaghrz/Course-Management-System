@@ -1,0 +1,2 @@
+CREATE DATABASE CourseManagmentSystem;
+CREATE TABLE student (student_id INT PRIMARY KEY, name VARCHAR(25), age SMALLINT,EMAIL VARCHAR(40));
